@@ -1,0 +1,76 @@
+.ticket{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-evenly;
+}
+.event-card{
+    height: 550px;
+    width: 350px;
+    border:1px solid #000000 ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    margin:10px 20px ;
+}
+.event-img{
+    height:100px ;
+    width:100px ;
+    margin: 0 auto;
+    display: block;
+    box-shadow:0 0 10px #8b0000 ;
+    border-radius: 10px 10px 0 0 ;
+}
+.head{
+    color: #ffffff;
+    background-color:#ee82ee;
+    margin: 10px;
+    font-size: 20px;
+}
+.head1{
+    font-size: 20px;
+    color:#d87093;
+    margin: 10px;
+    text-align: center;
+}
+.event{
+    font-size: 20px;
+    color: #8a2be2;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.head2{
+    margin: 10px;
+    color:#8a2be2;
+    font-size: 20px;
+}
+.head3{
+    margin: 10px;
+    color:#800080;
+    font-size: 20px;
+}
+.head4{
+    margin: 10px;
+    color:#ae0a85;
+    font-size: 20px;
+}
+.head5{
+    margin: 10px;
+    color:#ff6347;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px)
+{
+
+}
+
+@media (min-width:600px) and (max-width:800px)
+{
+
+}
+
+@media(min-width:801px) and (max-width:1024px)
+{
+
+}
